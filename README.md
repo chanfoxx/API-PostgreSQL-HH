@@ -43,7 +43,9 @@
 Poetry:
 poetry install
 6. Создайте конфигурационный файл('database.ini') с данными для подключения к БД:
-![Снимок экрана 2023-09-25 в 23.26.24.png](..%2F..%2F..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2F2p%2F8jjndtjj79zf9v3q5r0xzjlh0000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_42jI63%2F%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-09-25%20%D0%B2%2023.26.24.png)
+<img width="204" alt="Снимок экрана 2023-09-25 в 23 32 21" src="https://github.com/chanfoxx/API-PostgreSQL-HH/assets/133925881/b0b6ba45-97d3-4574-8dc7-f3d962d6e2fe">
+
+
 7. Запустите парсер:
 main.py
 
