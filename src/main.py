@@ -1,6 +1,7 @@
 from connector_db import ConnectorDB
 from api_hh import HeadHunterAPI
 from db_manager import DBManager
+from settings import PATH_FILE
 from config import config
 
 
@@ -14,11 +15,8 @@ def main_create_db_and_table():
     # Подтягиваем конфигурационный файл подключения к БД.
     params = config()
 
-    # Файл с данными по вакансиям и компаниям.
-    filename_vac_emp = 'vac_emp_data.json'
-
     # Создаем экземпляр класса ConnectorDB.
-    connect = ConnectorDB('hh_database', params, filename_vac_emp, 'vacancies')
+    connect = ConnectorDB('hh_database', params, PATH_FILE, 'vacancies')
     # Создаем базу данных hh_database.
     connect.create_database()
     # Создаем таблицу vacancies.
